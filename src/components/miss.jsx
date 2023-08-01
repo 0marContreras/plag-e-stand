@@ -56,10 +56,10 @@ export default function Miss () {
                 <div className="max-w-screen-xl mx-auto px-4 text-center text-gray-600 md:px-8">
                     <div className="max-w-2xl mx-auto">
                         <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                            The fastest way to launch a product
+                            PLAG-E is the best solution for your crops's problems
                         </h3>
                         <p className="mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus.
+                            PLAG-E was developed so that you don't have to worry about the cleanliness of your crops and can use your time for something else.
                         </p>
                     </div>
                     <div className="mt-12">

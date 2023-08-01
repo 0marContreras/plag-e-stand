@@ -8,28 +8,28 @@ export default function Tech () {
             avatar: "https://i.imgur.com/ndMcrZD.png",
             name: "Express",
             title: "Web backend and Rest API",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy",
+            desc: "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications",
             
         },
         {
             avatar: "https://i.imgur.com/XXnsTrc.png",
             name: "Tailwind CSS",
             title: "Web frontend",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy",
+            desc: "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML",
             
         },
         {
             avatar: "https://i.imgur.com/JlWGm1J.png",
             name: "Mongo DB",
             title: "Main database",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy",
+            desc: "MongoDB is built on a scale-out architecture that has become popular with developers of all kinds for developing scalable applications with evolving data schemas",
             
         },
         {
             avatar: "https://i.imgur.com/7DkLDyg.png",
             name: "Android Studio",
             title: "Moblie app",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy",
+            desc: "Android Studio provides the fastest tools for building apps on every Android device. Wear OS Pairing. Intelligent code editor. Flexible built system. Multipreview API",
            
         },
 
@@ -37,7 +37,7 @@ export default function Tech () {
             avatar: "https://i.imgur.com/oaXWs2U.png",
             name: "Open CV",
             title: "Vision and lane detection",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy",
+            desc: "Open CV is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision",
            
         },
 
@@ -45,7 +45,7 @@ export default function Tech () {
             avatar: "https://i.imgur.com/TMbyPju.png",
             name: "Arduino",
             title: "Secondary hardware control",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy",
+            desc: "Arduino consists of both a physical programmable circuit board (often referred to as a microcontroller) and a piece of software, or IDE",
            
         },
 
@@ -53,7 +53,7 @@ export default function Tech () {
             avatar: "https://i.imgur.com/Zw8rcMc.png",
             name: "Raspberry PI",
             title: "Main hardware control",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy",
+            desc: "Raspberry Pi is a single-board computer that allows people from different backgrounds and levels of expertise to experience and learn to compute",
            
         },
 
@@ -61,7 +61,7 @@ export default function Tech () {
             avatar: "https://i.imgur.com/ij35ded.png",
             name: "Next JS",
             title: "Stand page",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry. Lorem Ipsum has been the industry's standard dummy",
+            desc: "Next. js is a React framework that enables several extra features, including server-side rendering and generating static websites",
            
         },
     ]
@@ -74,7 +74,7 @@ export default function Tech () {
                         PLAG-E's development stack and hardware
                     </h3>
                     <p className="text-gray-600 mt-3">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy.
+                        PLAG-E uses various technologies for each of the modules that make up the project.
                     </p>
                 </div>
                 <div className="mt-12">
