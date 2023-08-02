@@ -67,7 +67,7 @@ export default function Tech () {
     ]
 
     return (
-        <section className="mt-15 py-14">
+        <section id="tech" className="mt-15 py-14">
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
                 <div className="max-w-xl">
                     <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
