@@ -43,7 +43,7 @@ export default function Miss () {
                         <path d="M8 13a4 4 0 1 0 8 0h-8"></path>
                     </svg>,
                 title: "User friendly",
-                desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus."
+                desc: "The applications of PLAG-E are designed for anyone to understand and use them, no prior knowledge is required."
             },
             {
                 icon:
@@ -71,7 +71,7 @@ export default function Miss () {
                         <path d="M6 14.04a3.5 3.5 0 1 0 3.96 3.96"></path>
                     </svg>,
                 title: "Autonomous",
-                desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus."
+                desc: "PLAG-E operates through computer vision and is capable of moving autonomously."
             },
         ]
     
