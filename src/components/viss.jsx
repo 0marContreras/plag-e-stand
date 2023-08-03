@@ -8,6 +8,14 @@ export default function Vision() {
                 "Our mission is to provide farmers with the best technological solutions that improve efficiency, productivity and sustainability in the agricultural industry",
 
             ],
+
+            featuresFR: [
+                "Notre mission est de fournir aux agriculteurs les meilleures solutions technologiques qui améliorent l'efficacité, la productivité et la durabilité dans l'industrie agricole."
+            ],
+
+            featuresES: [
+                "Nuestra misión es proporcionar a los agricultores las mejores soluciones tecnológicas que mejoren la eficiencia, productividad y sostenibilidad en la industria agrícola."
+            ]
         },
         {
             name: "Our vision",
@@ -17,6 +25,14 @@ export default function Vision() {
                 "Our vision is to create a future where technology and agriculture seamlessly integrate, where our solutions transform the way crops are cultivated and improve the quality and quantity of the crops.",
                 
             ],
+
+            featuresFR: [
+                "Notre vision est de créer un avenir où la technologie et l'agriculture s'intègrent de manière transparente, où nos solutions transforment la manière dont les cultures sont cultivées et améliorent la qualité et la quantité des récoltes."
+            ],
+
+            featuresES: [
+                "Nuestra visión es crear un futuro en el que la tecnología y la agricultura se integren perfectamente, donde nuestras soluciones transformen la forma en que se cultivan los cultivos y mejoren la calidad y cantidad de las cosechas."
+            ]
         },
     ];
 
@@ -25,13 +41,8 @@ export default function Vision() {
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                 <div className='relative max-w-xl mx-auto sm:text-center'>
                     <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
-                        Pricing for all sizes
+                        Mission and vision
                     </h3>
-                    <div className='mt-3 max-w-xl'>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur consequat nunc.
-                        </p>
-                    </div>
                 </div>
                 <div className='flex-1 mt-16 space-y-6 gap-10 sm:grid sm:grid-cols-1 sm:space-y-0 lg:grid-cols-2'>
                     {

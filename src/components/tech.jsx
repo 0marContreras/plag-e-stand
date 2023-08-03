@@ -9,6 +9,8 @@ export default function Tech () {
             name: "Express",
             title: "Web backend and Rest API",
             desc: "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications",
+            descFR: "Express est un framework minimaliste et flexible pour les applications web Node.js qui offre un ensemble robuste de fonctionnalités pour les applications web et mobiles.",
+            descES: "Express es un framework minimalista y flexible de aplicaciones web en Node.js que proporciona un conjunto robusto de características para aplicaciones web y móviles."
             
         },
         {
@@ -16,6 +18,8 @@ export default function Tech () {
             name: "Tailwind CSS",
             title: "Web frontend",
             desc: "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML",
+            descFR: "Tailwind CSS est un framework CSS de première utilité qui permet de construire rapidement des sites web modernes sans jamais quitter votre HTML.",
+            descES:"Tailwind CSS es un framework de CSS de utilidad primero para construir rápidamente sitios web modernos sin salir nunca de tu HTML."
             
         },
         {
@@ -23,6 +27,8 @@ export default function Tech () {
             name: "Mongo DB",
             title: "Main database",
             desc: "MongoDB is built on a scale-out architecture that has become popular with developers of all kinds for developing scalable applications with evolving data schemas",
+            descFR: "MongoDB repose sur une architecture de mise à l'échelle qui est devenue populaire auprès des développeurs de toutes sortes pour le développement d'applications évolutives avec des schémas de données en constante évolution.",
+            descES: "MongoDB está construido sobre una arquitectura de escalamiento que se ha vuelto popular entre desarrolladores de todo tipo para crear aplicaciones escalables con esquemas de datos en constante evolución."
             
         },
         {
@@ -30,6 +36,8 @@ export default function Tech () {
             name: "Android Studio",
             title: "Moblie app",
             desc: "Android Studio provides the fastest tools for building apps on every Android device. Wear OS Pairing. Intelligent code editor. Flexible built system. Multipreview API",
+            descFR: "Android Studio offre les outils les plus rapides pour créer des applications sur chaque appareil Android. Pairage Wear OS. Éditeur de code intelligent. Système de construction flexible. API multipreview.",
+            descES: "Android Studio proporciona las herramientas más rápidas para construir aplicaciones en cada dispositivo Android. Emparejamiento con Wear OS. Editor de código inteligente. Sistema de construcción flexible. API de Multipreview."
            
         },
 
@@ -38,6 +46,8 @@ export default function Tech () {
             name: "Open CV",
             title: "Vision and lane detection",
             desc: "Open CV is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision",
+            descFR: "OpenCV est une bibliothèque logicielle open source pour la vision par ordinateur et l'apprentissage automatique. OpenCV a été créé pour fournir une infrastructure commune pour la vision par ordinateur.",
+            descES: "OpenCV es una biblioteca de software de código abierto para visión por computadora y aprendizaje automático. OpenCV fue creada para proporcionar una infraestructura común para la visión por computadora."
            
         },
 
@@ -46,6 +56,8 @@ export default function Tech () {
             name: "Arduino",
             title: "Secondary hardware control",
             desc: "Arduino consists of both a physical programmable circuit board (often referred to as a microcontroller) and a piece of software, or IDE",
+            descFR: "Arduino se compose à la fois d'une carte de circuit programmable physique (souvent appelée microcontrôleur) et d'un logiciel, ou IDE.",
+            descES: "Arduino consiste en una placa de circuito programable física (a menudo denominada microcontrolador) y un software, o IDE."
            
         },
 
@@ -54,6 +66,8 @@ export default function Tech () {
             name: "Raspberry PI",
             title: "Main hardware control",
             desc: "Raspberry Pi is a single-board computer that allows people from different backgrounds and levels of expertise to experience and learn to compute",
+            descFR: "Raspberry Pi est un ordinateur à carte unique qui permet à des personnes de différents horizons et niveaux d'expertise de découvrir et d'apprendre le calcul.",
+            descES: "Raspberry Pi es una computadora de placa única que permite a personas de diferentes ámbitos y niveles de experiencia experimentar y aprender a programar."
            
         },
 
@@ -62,6 +76,8 @@ export default function Tech () {
             name: "Next JS",
             title: "Stand page",
             desc: "Next. js is a React framework that enables several extra features, including server-side rendering and generating static websites",
+            descFR: "Next.js est un framework React qui offre plusieurs fonctionnalités supplémentaires, notamment le rendu côté serveur et la génération de sites web statiques.",
+            descES: "Next.js es un framework de React que habilita varias características adicionales, incluyendo renderizado del lado del servidor y generación de sitios web estáticos."
            
         },
     ]
