@@ -105,7 +105,7 @@ export default function Miss () {
     
         if (locale == 'en'){
         return (
-            <section id="about" className="mt-16 py-14">
+            <section id="about" className="mt-13 py-14">
                 <div className="max-w-screen-xl mx-auto px-4 text-center text-gray-600 md:px-8">
                     <div className="max-w-2xl mx-auto">
                         <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
@@ -140,7 +140,7 @@ export default function Miss () {
         )
         } else if (locale == 'fr'){
             return (
-                <section id="about" className="mt-16 py-14">
+                <section id="about" className="mt-13 py-14">
                     <div className="max-w-screen-xl mx-auto px-4 text-center text-gray-600 md:px-8">
                         <div className="max-w-2xl mx-auto">
                             <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
@@ -175,7 +175,7 @@ export default function Miss () {
             )
         }else if(locale == 'es'){
             return (
-                <section id="about" className="mt-16 py-14">
+                <section id="about" className="mt-13 py-14">
                     <div className="max-w-screen-xl mx-auto px-4 text-center text-gray-600 md:px-8">
                         <div className="max-w-2xl mx-auto">
                             <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">

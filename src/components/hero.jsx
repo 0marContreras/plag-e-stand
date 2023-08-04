@@ -50,14 +50,14 @@ export function Language(props){
     } else if(locale == 'fr'){
         return(
             <>
-             <div class="inline-flex rounded-md shadow-sm">
-            <a href="/en"  class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-l-lg hover:bg-gray-100 focus:z-10 focus:ring-2 focus:ring-green-700 focus:text-green-700">
+              <div class="inline-flex rounded-md shadow-sm">
+            <a href="/en" aria-current="page" class="px-4 py-2 text-sm font-medium text-green-700 bg-white border border-gray-200 rounded-l-lg hover:bg-gray-100 focus:z-10 focus:ring-2 focus:ring-green-700 focus:text-green-700">
                 English
             </a>
-            <a href="/es"  class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-green-700 focus:z-10 focus:ring-2 focus:ring-green-700 focus:text-green-700">
+            <a href="/es" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-green-700 focus:z-10 focus:ring-2 focus:ring-green-700 focus:text-green-700">
                 Español
             </a>
-            <a href="/fr" aria-current="page" class="px-4 py-2 text-sm font-medium  text-green-700 bg-white border border-gray-200 rounded-r-md hover:bg-gray-100 hover:text-green-700 focus:z-10 focus:ring-2 focus:ring-green-700 focus:text-green-700">
+            <a href="/fr" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-md hover:bg-gray-100 hover:text-green-700 focus:z-10 focus:ring-2 focus:ring-green-700 focus:text-green-700">
                 Français
             </a>
             </div>
@@ -127,15 +127,7 @@ export function Language(props){
 export default function Hero(){
     const router = useRouter();
     const locale = router.locale;
-    let text = "An integrative project for"
-
-    if (locale == 'en'){
-        text = "An integrative project for"
-    }else if(locale == 'fr'){
-        text = "Un projet intégratif pour"
-    }else if(locale == 'es'){
-        text = "Un proyecto integrador para"
-    }
+    
 
     return (
         <>
@@ -158,14 +150,7 @@ export default function Hero(){
         
                     </div>
                 </div>
-                <div className="mt-14 px-4 md:px-8">
-                    <p className="text-center text-sm text-gray-700 font-semibold">{text}</p>
-                    <div className="flex justify-center items-center flex-wrap gap-x-12 gap-y-6 mt-6">
-                        <Image src={require('../../public/images/UTCH.png')} alt="partner" width="190" height="33" />
-                        <Image src={require('../../public/images/bis.png')} alt="partner" width="190" height="33" />
-                        <Image src={require('../../public/images/mosquera.png')} alt="partner" width="190" height="33" />
-                        </div>
-                </div>
+                
             </section>
         </>
     )
