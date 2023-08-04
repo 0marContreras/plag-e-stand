@@ -147,7 +147,7 @@ export default function Miss () {
                                 PLAG-E est la meilleure solution pour les problèmes de vos cultures
                             </h3>
                             <p className="mt-3">
-                                PLAG-E a été développé pour que vous n'ayez pas à vous soucier de la propreté de vos cultures et puissiez utiliser votre temps pour autre chose.
+                            {` PLAG-E a été développé pour que vous n'ayez pas à vous soucier de la propreté de vos cultures et puissiez utiliser votre temps pour autre chose. `}
                             </p>
                         </div>
                         <div className="mt-12">

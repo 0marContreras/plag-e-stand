@@ -29,7 +29,7 @@ export default function Quote () {
                             <Image 
                             src={require('../../public/images/bo.jpg')} 
                             className="w-16 h-16 rounded-full"
-                            alt="b"
+                            alt="bost"
                             width={0}
                             height={0} 
                             />
