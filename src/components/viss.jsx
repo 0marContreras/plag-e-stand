@@ -1,8 +1,15 @@
+import { useRouter } from "next/router";
+
 export default function Vision() {
+    const router = useRouter();
+    const locale = router.locale;
+
 
     const plans = [
         {
             name: "Our mission",
+            nameFR: "Notre mission",
+            nameES: "Nuestra misión",
              
             features: [
                 "Our mission is to provide farmers with the best technological solutions that improve efficiency, productivity and sustainability in the agricultural industry",
@@ -19,6 +26,8 @@ export default function Vision() {
         },
         {
             name: "Our vision",
+            nameFR: "Notre vision",
+            nameES: "Nuestra visión",
             
             features: [
 
@@ -36,38 +45,110 @@ export default function Vision() {
         },
     ];
 
-    return (
-        <section className='py-14'>
-            <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
-                <div className='relative max-w-xl mx-auto sm:text-center'>
-                    <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
-                        Mission and vision
-                    </h3>
-                </div>
-                <div className='flex-1 mt-16 space-y-6 gap-10 sm:grid sm:grid-cols-1 sm:space-y-0 lg:grid-cols-2'>
-                    {
-                        plans.map((item, idx) => (
-                            <div key={idx} className=' flex items-stretch flex-col p-8 rounded-xl border-2'>
-                                <div>
-                                    <span className='text-green-600 font-medium'>
-                                        {item.name}
-                                    </span>
-                                
+    if(locale == 'en'){
+        return (
+            <section className='py-14'>
+                <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
+                    <div className='relative max-w-xl mx-auto sm:text-center'>
+                        <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
+                            Mission and vision
+                        </h3>
+                    </div>
+                    <div className='flex-1 mt-16 space-y-6 gap-10 sm:grid sm:grid-cols-1 sm:space-y-0 lg:grid-cols-2'>
+                        {
+                            plans.map((item, idx) => (
+                                <div key={idx} className=' flex items-stretch flex-col p-8 rounded-xl border-2'>
+                                    <div>
+                                        <span className='text-green-600 font-medium'>
+                                            {item.name}
+                                        </span>
+                                    
+                                    </div>
+                                    <ul className='py-8 space-y-3'>
+                                        {
+                                            item.features.map((featureItem, idx) => (
+                                                <p key={idx} className='text-xl flex items-center gap-5'>
+                                                    {featureItem}
+                                                </p>
+                                            ))
+                                        }
+                                    </ul>
                                 </div>
-                                <ul className='py-8 space-y-3'>
-                                    {
-                                        item.features.map((featureItem, idx) => (
-                                            <p key={idx} className='text-xl flex items-center gap-5'>
-                                                {featureItem}
-                                            </p>
-                                        ))
-                                    }
-                                </ul>
-                            </div>
-                        ))
-                    }
+                            ))
+                        }
+                    </div>
                 </div>
-            </div>
-        </section>
-    );
+            </section>
+        )
+    } else if(locale == 'fr'){
+        return (
+            <section className='py-14'>
+                <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
+                    <div className='relative max-w-xl mx-auto sm:text-center'>
+                        <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
+                        Mission et la vision
+                        </h3>
+                    </div>
+                    <div className='flex-1 mt-16 space-y-6 gap-10 sm:grid sm:grid-cols-1 sm:space-y-0 lg:grid-cols-2'>
+                        {
+                            plans.map((item, idx) => (
+                                <div key={idx} className=' flex items-stretch flex-col p-8 rounded-xl border-2'>
+                                    <div>
+                                        <span className='text-green-600 font-medium'>
+                                            {item.nameFR}
+                                        </span>
+                                    
+                                    </div>
+                                    <ul className='py-8 space-y-3'>
+                                        {
+                                            item.featuresFR.map((featureItem, idx) => (
+                                                <p key={idx} className='text-xl flex items-center gap-5'>
+                                                    {featureItem}
+                                                </p>
+                                            ))
+                                        }
+                                    </ul>
+                                </div>
+                            ))
+                        }
+                    </div>
+                </div>
+            </section>
+        )
+    } else if(locale == 'es'){
+        return (
+            <section className='py-14'>
+                <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
+                    <div className='relative max-w-xl mx-auto sm:text-center'>
+                        <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
+                            Misión y visión
+                        </h3>
+                    </div>
+                    <div className='flex-1 mt-16 space-y-6 gap-10 sm:grid sm:grid-cols-1 sm:space-y-0 lg:grid-cols-2'>
+                        {
+                            plans.map((item, idx) => (
+                                <div key={idx} className=' flex items-stretch flex-col p-8 rounded-xl border-2'>
+                                    <div>
+                                        <span className='text-green-600 font-medium'>
+                                            {item.nameES}
+                                        </span>
+                                    
+                                    </div>
+                                    <ul className='py-8 space-y-3'>
+                                        {
+                                            item.featuresES.map((featureItem, idx) => (
+                                                <p key={idx} className='text-xl flex items-center gap-5'>
+                                                    {featureItem}
+                                                </p>
+                                            ))
+                                        }
+                                    </ul>
+                                </div>
+                            ))
+                        }
+                    </div>
+                </div>
+            </section>
+        )
+    }
 };
